@@ -40,7 +40,7 @@ ul.navmenu li a:hover {
 /* When the user clicks on one of the links, */
 /* the element that contains the link should grow in size by 5px on the left and right.*/
 ul.navmenu li a:active {
-	padding: 5px;
+	padding: 14px 21px;
 }
 
 
