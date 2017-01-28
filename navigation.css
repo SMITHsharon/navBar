@@ -1,5 +1,15 @@
-/* Create a navigation bar out of an unordered list element, and add the following interactivity.*/
+/* Create a navigation bar out of an unordered list element ... */
 
+/* The menu <li> elements displayed as inline with a 1 pixel border 
+and 25 pixel margin on all sides. */
+.navitem {
+	display: inline;
+	border: 1px solid slategray;
+	padding: 10px;
+	margin: 5px 25px;
+}
+
+/* Add the following interactivity */
 /* When the user hovers over one of the links, the color of the text should change.*/
 
 
@@ -9,3 +19,9 @@ the background color of the element that contains the link should change.*/
 
 /* When the user clicks on one of the links, 
 the element that contains the link should grow in size by 5px on the left and right.*/
+
+
+
+
+
+
