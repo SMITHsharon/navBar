@@ -1,14 +1,5 @@
 /* Create a navigation bar out of an unordered list element ... */
 
-/* The menu <li> elements displayed as inline with a 1 pixel border 
-and 25 pixel margin on all sides. */
-/*.navitem {
-	display: inline;
-	border: 1px solid slategray;
-	padding: 10px;
-	margin: 5px 25px;
-}*/
-
 /* Remove margins and padding from the list, and add a bluish background color */
 ul.navmenu {
     list-style-type: none;
@@ -26,27 +17,31 @@ ul.navmenu li {
 /* Style the links inside the list items */
 ul.navmenu li a {
     display: inline-block;
-    color: #E327CA;
+    min-width: 100px;
+    color: #DE1AE8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-/*    transition: 0.3s;
-*/    font-size: 17px;
+    font-size: 17px;
 }
 
 /* Add the following interactivity */
-/* When the user hovers over one of the links, the color of the text should change.*/
+/* When the user hovers over one of the links, the color of the text should change (dark grey).*/
+ul.navmenu li a:hover {
+	color: #140214;
+}
+
+/* When the user hovers over one of the links, */
+/* the background color of the element that contains the link should change (magentish).*/
 ul.navmenu li a:hover {
 	background-color: #E8ACE0;
 }
 
-/* When the user hovers over one of the links, */
-/* the background color of the element that contains the link should change.*/
-
-
 /* When the user clicks on one of the links, */
 /* the element that contains the link should grow in size by 5px on the left and right.*/
-
+ul.navmenu li a:active {
+	padding: 5px;
+}
 
 
 
