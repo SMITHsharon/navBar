@@ -1,0 +1,49 @@
+/* Create a navigation bar out of an unordered list element ... */
+
+/* Remove margins and padding from the list, and add a bluish background color */
+ul.navmenu {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4DB6E3;
+}
+
+/* Float the list items side by side */
+ul.navmenu li {
+	float: left;
+}
+
+/* Style the links inside the list items */
+ul.navmenu li a {
+    display: inline-block;
+    min-width: 100px;
+    color: #DE1AE8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Add the following interactivity */
+/* When the user hovers over one of the links, the color of the text should change (dark grey).*/
+ul.navmenu li a:hover {
+	color: #140214;
+}
+
+/* When the user hovers over one of the links, */
+/* the background color of the element that contains the link should change (magentish).*/
+ul.navmenu li a:hover {
+	background-color: #E8ACE0;
+}
+
+/* When the user clicks on one of the links, */
+/* the element that contains the link should grow in size by 5px on the left and right.*/
+ul.navmenu li a:active {
+	padding: 5px;
+}
+
+
+
+
+
