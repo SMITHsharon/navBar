@@ -4,10 +4,10 @@
 This exercises uses css styling to create a navigation bar out of an unordered list element, and adds visual feedback to the user in response to mouse hovers and clicks. 
 
 #### Interactive NavBar at Launch
-![Interactive NavBar at Launch](...)
+![Interactive NavBar at Launch](https://raw.githubusercontent.com/SMITHsharon/navBar/screens/screens/Interactive%20Nav%20at%20Launch.png)
 
 #### Interactive NavBar upon Selecting Menu Option
-![Interactive NavBar upon Select](...)
+![Interactive NavBar upon Select](https://raw.githubusercontent.com/SMITHsharon/navBar/screens/screens/Interaction%20Nav%20On%20Select%20Item.png)
 
 
 ### Project Specs
